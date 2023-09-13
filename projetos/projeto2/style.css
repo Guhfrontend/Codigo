@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@font-face {
+    font-family:"fredericka";
+    src: url('fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #8FE7EA,#47E0E6, #37AFB3, #3E6566);
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+}
+   
+h2 {
+    font-family: 'Black Ops One', Times, serif;
+    color: #000;
+}
+main {
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    }
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    
+}
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 8em;
+}
+a {
+    color: aqua;
+    font-size: 20px;
+    
+}
+#principal:hover { 
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+    color: yellow;
+
+}
+.secundario {
+    font-family: 'Black Ops One', Times, serif;
+    color: #000;
+
+}
+a:hover {
+    color: black;
+}

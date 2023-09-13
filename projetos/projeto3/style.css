@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+a:hover {
+    color: aqua;
+
+}
+body {
+    background-image: linear-gradient(to bottom, #800080, #bd16bd, #f70ef7);
+    height: 56em;
+    
+}
