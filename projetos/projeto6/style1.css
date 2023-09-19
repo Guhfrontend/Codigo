@@ -1,19 +1,22 @@
 @charset "UTF-8";
 
-body {
-    height: 98vh;
-    background-color: black;
-    background-image: url(imagens/wallpaper002.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.container {
+    height: 96vh;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+    
 }
-main {
-    background-color: white;
+.conteudo {
+    position: absolute;
+    height: 200px;
     width: 400px;
-    margin: auto;
-    padding-top: 10px;
-    border: 1px solid darkblue;
-    border-radius: 15px;
+    background-color: yellow;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
 }
