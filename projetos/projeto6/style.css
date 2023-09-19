@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url(imagens/wallpaper003.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1 {
+    text-align: center;
+    font-size: 7em;
+    background-image:url(https://img.freepik.com/fotos-premium/cor-bonita-do-por-do-sol_410516-534.jpg?w=2000);
+    background-clip: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center center;
+}
