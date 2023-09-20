@@ -6,41 +6,70 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    padding: 30px;
+header {
     background-color: black;
-    background-image: url(imagem/spotify_logo.png);
-    background-size: 100px;
-    background-repeat: no-repeat;
-    
+    padding: 20px 40px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+span {
+    display: inline-block;
+    background-color: white;
+    width: 1px;
+    height: 10px;
+    margin: 0px 15px 0px 15px;
+}
+
 a {
     color: white;
-    text-decoration: none;
     padding: 10px;
-    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
 }
-a:hover {
-    text-align: right;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    transition: 0.8s;
+
+.aa {
+    color: #c9c9c9;
 }
+
+.logo {
+    width: 30%;
+    display: flex;
+    
+}
+
+.imagem-logo {
+    display: flex;
+    width: 100px;
+    height: 30px;
+}
+
 main {
     background-color: #993399;
-    padding: 100px;
+    padding-left: 50px;
+    height: 50vh;
+}
+
+main h1 {
     color: white;
+    display: inline-block;
+    background-color: black;
+    font-size: 6vh;
 }
-.tenis {
-    height: 400px;
-    width: 400px;
-    background-image: url(imagem/tenis.png);
-    position: absolute;
-    right: 10%;
-    top: 10%;
-    background-repeat: no-repeat;  
-    background-size: cover;
+
+main h2 {
+    color: white;
+    padding: 50px 50px 40px 0px;
+    font-size: 2vh;
 }
 
 
+
+
+
+
+footer {
+    background-color: #2941AB;
+}
