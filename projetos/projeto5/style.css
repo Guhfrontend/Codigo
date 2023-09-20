@@ -8,23 +8,39 @@
 
 nav {
     padding: 30px;
-    text-align: end;
-    padding-right: 60px;
     background-color: black;
+    background-image: url(imagem/spotify_logo.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    
 }
 a {
     color: white;
-    font-weight: 600;
     text-decoration: none;
     padding: 10px;
-    text-align: center;
+    border-radius: 10px;
+}
+a:hover {
+    text-align: right;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.8s;
 }
 main {
     background-color: #993399;
-    padding: 200px;
+    padding: 100px;
+    color: white;
 }
-.premium {
-    padding: 50px;
-    
+.tenis {
+    height: 400px;
+    width: 400px;
+    background-image: url(imagem/tenis.png);
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    background-repeat: no-repeat;  
+    background-size: cover;
 }
+
 
