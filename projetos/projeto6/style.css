@@ -1,19 +1,36 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
-    height: 98vh;
-    border: 1px dashed black;
-    background-image: url(imagens/wallpaper003.jpg);
-
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: beige;
+}
+header {
+    background-color: #F7F0F0;
+    padding: 10px;
 }
 h1 {
-    text-align: center;
-    font-size: 7em;
-    background-image:url(https://img.freepik.com/fotos-premium/cor-bonita-do-por-do-sol_410516-534.jpg?w=2000);
-    background-clip: no-repeat;
-    -webkit-background-clip: text;
+    color: #8AF3FF;
+    padding-left: 1em;
+    padding-top: 2em;
+    font-size: 6em;
+    text-align: justify;
+}
+p {
+    color: #0093BF;
+    font-size: 4em;
+    padding-left: 3em;
+}
+span {
+    font-size: 2em;
+    font-weight: bolder;
+    background-image: url(Imagem/SI_452_orcl_nuvens_site.webp);
     -webkit-text-fill-color: transparent;
-    background-position: center center;
+    -webkit-background-clip: text;
+    background-position: top left;
 }
