@@ -10,21 +10,36 @@ body {
     background-color: #1F1F33;
 }
 nav  {
-    padding: 10px;
+    padding: 5vh;
 }
 .links {
     position: absolute;
+    top: 5vh;
+    right: 50%;
+    left: 50%;
     display: flex;
+    justify-content: center;
     list-style: none;
     gap: 2rem;
 }
 
 .link {
+    padding: 10px;
     color: white;
     text-decoration: none;
     font-weight: bolder;
     font-family:'Raleway', sans-serif;
+    border-radius: 10px;
 }
+.link:hover {
+    padding: 3px;
+    font-size: bolder;
+    background-color: #ffffff85;
+    color: #1F1F33;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
 header {
     width: 100%;
     height: 100vh;
@@ -38,7 +53,7 @@ header {
     justify-content: center;
     gap: 0.8rem;
     height: 100vh;
-}
+} 
 header .info h1 {
     font-size: 5rem;
     font-weight: 500;
@@ -47,12 +62,18 @@ header .info h1 {
 h3 {
     font-size: 1.5rem;
     padding-left: 6vw;
+    font-family:'Raleway', sans-serif;
+}
+span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px white;
+    font-size: 3rem;
 }
 .blur {
     position: absolute;
     box-shadow: 0 0 1000px 60px #1d4ed8;
     z-index: -100;
-    transform: translate(-10rem, 0);
+    transform: translate(-15rem, 0);
 }
 main {
     position: relative;
