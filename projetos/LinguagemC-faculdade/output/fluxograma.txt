@@ -1,0 +1,7 @@
+inicio do algoritmo
+entrada do numero 
+calculo do dobro do numero 
+apresentação do resultado
+fim do algoritmo
+
+*passo a passo da discrição narrativa
