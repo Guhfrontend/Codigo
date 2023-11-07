@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Java1 {
 
     public static void main(String[] args){
-        Scanner scan = new Scanner();
         System.out.println("Esse é o Screen Match");
         System.out.println("Filme: top Gun: Maverick");
 
@@ -27,10 +26,6 @@ public class Java1 {
             int classificacao;
             classificacao = (int) (media/2);
         System.out.println(classificacao);
-
-        System.out.println("Qual numero quer converter em fahrenheit?");
-
-
 
 
 
