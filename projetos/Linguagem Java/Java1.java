@@ -4,7 +4,7 @@ public class Java1 {
 
     public static void main(String[] args){
         System.out.println("Esse é o Screen Match");
-        System.out.println("Filme: top Gun: Maverick");
+        System.out.println("br.com.alura.screenmatch.modelos.Filme: top Gun: Maverick");
 
         //Top Gun: Maverick
         int anoDeLancamento =2022;
@@ -16,8 +16,8 @@ public class Java1 {
         System.out.println(media);
         String sinopse;
         sinopse =(String.format( """
-                    Filme top Gun
-                    Filme de aventura com galã dos anos 80
+                    br.com.alura.screenmatch.modelos.Filme top Gun
+                    br.com.alura.screenmatch.modelos.Filme de aventura com galã dos anos 80
                     Muito bom!
                     Ano de lançamento: %d
                 """, anoDeLancamento)) ;
