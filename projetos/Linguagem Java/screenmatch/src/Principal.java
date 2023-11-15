@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -29,6 +30,10 @@ public class Principal {
 
         Serie GameOfThrones = new Serie();
         GameOfThrones.setNome("Game of Thrones");
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(meuFilme);
+        System.out.println(calculadora.getTempoTotal());
 
 
 
