@@ -118,9 +118,8 @@ main h1 {
     transition: all ease 1s;
 }
 .box1 a :hover {
-    width: 35vw;
-    min-width: 500px;
-    height: 450px;
+    width: 32vw;
+    height: 420px;
     background-color: black;
     transition: 1s;
 }
@@ -137,11 +136,8 @@ main h1 {
     transition: all ease 1s;
 }
 .box2 a :hover {
-    margin: 50px;
-    display: flex;
-    width: 35vw;
-    min-width: 500px;
-    height: 450px;
+    width: 32vw;
+    height: 420px;
     background-color: black;
     transition: 1s;
 }
