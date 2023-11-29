@@ -1,23 +1,29 @@
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("O poderoso chefão");
-        meuFilme.setAnoDeLancamento(1970);
-        meuFilme.setDuracaoEmMinutos(180);
+        Filme oPoderosoChefao = new Filme();
+        oPoderosoChefao.setNome("O poderoso chefão");
+        oPoderosoChefao.setAnoDeLancamento(1970);
+        oPoderosoChefao.setDuracaoEmMinutos(180);
 
+        Filme AvatarFilme = new Filme();
+        AvatarFilme.setNome("Avatar");
+        AvatarFilme.setAnoDeLancamento(1970);
+        AvatarFilme.setDuracaoEmMinutos(200);
 
-        meuFilme.exibeFichaTecninca();
-        meuFilme.avalia(8);
-        meuFilme.avalia(5);
-        meuFilme.avalia(10);
+        oPoderosoChefao.exibeFichaTecninca();
+        oPoderosoChefao.avalia(8);
+        oPoderosoChefao.avalia(5);
+        oPoderosoChefao.avalia(10);
         //System.out.println(meuFilme.somaDasAvaliacoes);
-        System.out.println(meuFilme.getTotalDeAvaliacoes());
-        System.out.println(meuFilme.pegaMedia());
+        System.out.println(oPoderosoChefao.getTotalDeAvaliacoes());
+        System.out.println(oPoderosoChefao.pegaMedia());
 
         Serie lost = new Serie();
         lost.setNome("Lost");
@@ -28,12 +34,23 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         System.out.println(lost.getDuracaoEmMinutos());
 
-        Serie GameOfThrones = new Serie();
-        GameOfThrones.setNome("Game of Thrones");
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
-        calculadora.inclui(meuFilme);
+        calculadora.inclui(oPoderosoChefao);
+        calculadora.inclui(lost);
+        calculadora.inclui(AvatarFilme);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(oPoderosoChefao);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalvisualizacoes(300);
+        filtro.filtra(episodio);
+
+
 
 
 
