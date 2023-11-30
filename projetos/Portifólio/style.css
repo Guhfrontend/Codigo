@@ -15,6 +15,8 @@ html{
 body {
     background-color: #1F1F33;
 }
+
+/*Navegação*/
 nav  {
     padding: 5vh;
 }
@@ -33,7 +35,6 @@ nav  {
     transition: all ease 0.5s;
 }
 .link::after {
-    padding-left: 10px;
     content: " ";
     width: 0%;
     height: 0.1px;
@@ -42,8 +43,10 @@ nav  {
     transition: 0.5s ease-in-out;
 }
 .link:hover::after {
-    width: 100%;
+    width: 115%;
 }
+
+/*Páinel central "Olá Mundo!"*/
 header {
     width: 100%;
     height: 80vh;
@@ -87,67 +90,14 @@ header span {
     font-size: 3rem;
     transition: all ease 1s;
 }
-main {
-    width: 100%;
-    height: 80vh;
-}
-main h1 {
-    display: flex;
-    margin: 50px;
-    font-size: 3.5rem;
-    font-family:'Raleway', sans-serif;
-    font-weight: 300;
-    justify-content: center;
-    color: white;
-}
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-
-}
-.box1  {
-    display: flex;
-    max-width: 700px;
-    margin: 0px 20px 0px 20px;
-    border: 5px solid white;
-    background-color: white;
-    border-radius: 5px;
-    transition: all ease 0.3s;
-}
-.box1 a img {
+/*Sobre mim aqui*/
+article {
     width: 100%;
-    transition: all ease 0.3s;
 }
-.box1 :hover {
-    transform: scale(1.01);
-    transition: all ease 0.3s;
-    border-radius: 20px;
-}
-.box2 {  
-    display: flex;
-    max-width: 700px;
-    margin: 0px 20px 0px 20px;
-    border: 5px solid white;
-    background-color: white;
-    border-radius: 5px;
-    transition: all ease 0.3s;
-}
-.box2 a img {
-    width: 100%;
-    transition: all ease 0.3s;
-}
-.box2 :hover {
-    transform: scale(1.01);
-    transition: all ease 0.3s;
-    border-radius: 20px;
-}
-@media screen and (max-width: 900px){
-    #container {
-        flex-direction: column;
-        gap: 20px;
-    }
+article .astronauta {
+    position: absolute;
+    z-index: -1;
 }
 section {
     padding: auto;
@@ -155,8 +105,8 @@ section {
     margin-bottom: 200px;
     width: auto;
     max-width: 800px;
-    height: 50vh;
-    padding: 0px 150px;
+    height: 70vh;
+    padding: 0px 50px;
     box-shadow: 0px 5px 10px #18182d;
     border-radius: 10px;
 }
@@ -177,15 +127,72 @@ section h2 {
 }
 section p{
     color: white;
-    text-indent: 30px;
-    text-align: justify;
-    line-height: 1.5em;
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 20px 150px;
+    margin: 30px 30px;
+    
 }
+/*Projetos*/
+main {
+    width: 100%;
+    height: 100vh;
+}
+main h1 {
+    display: flex;
+    margin: 50px;
+    font-size: 3.5rem;
+    font-family:'Raleway', sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    color: white;
+}
+main .projeto {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: auto;
+    max-width: 1050px;
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+main .projeto ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+main .projeto li {
+    margin: 10px;
+    background-color: #fff;
+    padding: 30px 70px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+main .projeto a {
+    text-decoration: none;
+    display: block;
+    color: #1F1F33;
+}
+main .projeto h2 {
+    margin: 0px 0px 0px 3px;
+    box-shadow: inset 0px 0px 5px #c2c2c2;
+}
+main .projeto h2 i {
+    font-size: 15px;
+}
+main .projeto p {
+    margin: 3px 0px 3px 0px;
+    font-weight: bolder;
+    max-width: 400px;
+}
+@media screen and (max-width: 1045px){
+    main .projeto {
+        display: block;
+    }
+}
+
+/*Rodapé com os contatos*/
 footer {
     width: 100%;
-    padding: 25px 0px;
+    padding-bottom: 10px;
     background-color: #ffffff95;
 }
 .icon a {
@@ -215,11 +222,15 @@ footer {
     transition: all ease 1s;
 }
 .containerContato .gmail:hover {
-    filter: drop-shadow(0 0 20px #e32b2b);
+    filter: drop-shadow(0 0 10px #e32b2b);
+    transform: rotate(30deg) ;
+}
+.containerContato .instagram:hover {
+    filter: drop-shadow(0 0 10px #e32be3);
     transform: rotate(30deg) ;
 }
 .containerContato .whatsapp:hover {
-    filter: drop-shadow(0 0 20px #00ff4c);
+    filter: drop-shadow(0 0 20px #00ff00);
     transform: rotate(30deg) ;
 }
 .containerContato .linkedin:hover {

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Imagem/icon-256x256.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/88b0b5e7cb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 </head>
 <body>
     <nav id="navegacao">
@@ -20,32 +21,70 @@
         <div class="info">
             <span class="blur"></span>
             <span class="blur"></span>
+            <span class="blur"></span>
             <div>
                 <h1>Olá, Mundo!</h1>
                 <h3>Me chamo <a class="nome" href="https://www.linkedin.com/in/gustavo-ribeiro-35b118268/" target="_blank" ><span>Gustavo</span></a>, E sou um Desenvolvedor Full stack.</h3>
             </div>
         </div>
     </header>
-    <section id="Sobre">
-        <h1>Sobre</h1>
-        <h2>Olá! Meu nome é Gustavo Ribeiro da Silva nascido em 2000, estudante de Ánalise e Desenvolvimento de Sistemas pela Universidade paulista.</h2> 
-        <p>Apaixonado por desenvolvimento, dedicado e comunicativo, sou autodidata e me esforço muito para aprender e evoluir contantemente, procuro muitos caminhos para me especializar no full stack com cursos e projetos pessoais, sou desenvolvedor full stack Java. Gosto de jogar, assistir séries e sair com meus amigos.</p>
     
-    </section>
+    <article>
+        <dotlottie-player class="astronauta" src="https://lottie.host/3e5e13b2-58fd-4759-9bec-e10bf4692d0f/dN0CXWblRG.json" background="transparent" speed="1" style="width: 300px; height: 300px;"  loop autoplay></dotlottie-player>
+        <section id="Sobre">
+            <h1>Sobre</h1>
+            
+            <h2>Olá! Meu nome é Gustavo Ribeiro da Silva nascido em 2000, estudante de Ánalise e Desenvolvimento de Sistemas pela Universidade paulista.</h2>
+            
+            <p>Apaixonado por desenvolvimento, dedicado e comunicativo, sou autodidata e me esforço muito para aprender e evoluir contantemente, procuro muitos caminhos para me especializar no full stack com cursos e projetos pessoais, sou desenvolvedor full stack Java. Normalmente no meu tempo livre se eu não estiver trabalhando em algum projeto pessoal, assisto algum vídeo ou vejo alguma série.</p>
+        </section>
+    </article>
     <main id="projetos">
-        <h1>Projetos Front-End</h1>
-        <div id="container">
-            <div class="box1">
-            <a href="https://github.com/Guhfrontend/Codigo/tree/main/projetos/projeto-android-melhorado/desafio" target="_blank"><img src="Imagem/Screenshot_1.png" alt="projetoAndroid"></a>
+        <h1>Projetos</h1>
+            <div class="projeto">
+                <ul>
+                   <li>
+                    <a href="#https://github.com/Guhfrontend/Codigo/tree/main/projetos/api" target="_blank">
+                        <h2><i class="fa-solid fa-link"></i> Projeto API Hospital</h2>       
+                        <p title="Projeto feito em Spring Java para ter um controle de usuários e funcionários, alimentando o Banco de Dados por API">Projeto feito em Spring Java para ter um controle de usuários e funcionários.</p>
+                    </a>
+                   </li> 
+                   <li>
+                    <a href="https://github.com/Guhfrontend/Codigo/tree/main/projetos/projeto-cordel" target="_blank">
+                        <h2><i class="fa-solid fa-link"></i> Projeto Cordel</h2>
+                        <p>Projeto onde aprendi a utilizar o efeito paralax em imagens.</p>
+                    </a>
+                   </li> <!--
+                   <li>
+                    <a href="#" target="_blank">
+                        <h2><i class="fa-solid fa-link"></i></h2>
+                        <p></p>
+                    </a>
+                   </li> -->
+                </ul>
+                   <ul>
+                       <li>
+                        <a href="https://github.com/Guhfrontend/Codigo/tree/main/projetos/Linguagem%20Java/screenmatch" target="_blank">
+                            <h2><i class="fa-solid fa-link"></i> Projeto ScreenMatch</h2>
+                            <p>Projeto onde alimento conteúde de uma Streaming em Java POO.</p>
+                        </a>
+                       </li>
+                       <li>
+                        <a href="https://github.com/Guhfrontend/Codigo/tree/main/projetos/projeto-android-melhorado/desafio" target="_blank">
+                            <h2><i class="fa-solid fa-link"></i> Projeto Android</h2>
+                            <p>Projeto onde contrui uma página e artigos sobre a criadora do Android.</p>
+                       </a><!--
+                       </li>
+                       <li>
+                        <a href="#" target="_blank">
+                            <h2><i class="fa-solid fa-link"></i></h2>
+                            <p></p>
+                        </a>
+                       </li>
+                       -->
+                   </ul>
             </div>
-            <div class="box2">
-            <a href="https://github.com/Guhfrontend/Codigo/tree/main/projetos/projeto-cordel"><img src="Imagem/Screenshot_3.png" alt="projetoCordel"></a>
-            </div>
-            <div class="box3">
-
-            </div>
-        </div>
-
+            
     </main>
 
     <footer id="Contato">
@@ -53,10 +92,13 @@
             <a href="#navegacao"><i class="fa-solid fa-arrow-up"></i></a>
         </div>
         <div class="containerContato">
-            <a class="gmail" href="#" target="_blank">
+            <a class="gmail" href="mailto:gustavo.rsilva08@gmail.com" target="_blank">
                 <i class="fa-solid fa-envelope"></i>
             </a>
-            <a href="#" class="whatsapp" target="_blank">
+            <a class="instagram" href="https://www.instagram.com/gr7.magrao/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5511994048809?text=Sua%20mensagem%20aqui" class="whatsapp" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
             <a class="linkedin" href="https://www.linkedin.com/in/gustavo-ribeiro-35b118268/" target="_blank">

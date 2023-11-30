@@ -14,7 +14,7 @@ public class Principal {
 
         Filme AvatarFilme = new Filme();
         AvatarFilme.setNome("Avatar");
-        AvatarFilme.setAnoDeLancamento(1970);
+        AvatarFilme.setAnoDeLancamento(2015);
         AvatarFilme.setDuracaoEmMinutos(200);
 
         oPoderosoChefao.exibeFichaTecninca();
