@@ -183,15 +183,12 @@ main .projeto p {
     font-weight: bolder;
     max-width: 400px;
 }
-@media screen and (max-width: 1045px){
-    main .projeto {
-        display: block;
-    }
-}
+
 
 /*Rodapé com os contatos*/
 footer {
-    width: 100%;
+    width: auto;
+    margin-top: 20px;
     padding-bottom: 10px;
     background-color: #ffffff95;
 }
@@ -240,4 +237,41 @@ footer {
 .containerContato .github:hover {
     filter: drop-shadow(0 0 20px #0F0326);
     transform: rotate(30deg) ;
+}
+
+/*Ajuste @media*/
+
+@media screen and (max-width: 1045px){
+    main .projeto {
+        display: block;
+    }
+    main {
+        height: 100%;
+        width: 100%;
+    }
+    article .astronauta {
+        position:absolute;
+        top: 500px;
+        left: 30px;
+    }
+
+
+}
+@media screen and (max-height: 500px){
+    main .projeto {
+        display: block;
+    }
+    main {
+        height: 100%;
+        width: 100%;
+    }
+    main .icon a {
+        width: 100%;
+        height: 100%;
+    }
+    article .astronauta {
+        position:absolute;
+
+    }
+
 }
