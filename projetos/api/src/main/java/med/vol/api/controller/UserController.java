@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String olamundo(){
-        return "Hello World Spring";
+        return "Hello World SpringBoot";
     }
 }
