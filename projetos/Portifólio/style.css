@@ -131,6 +131,11 @@ section p{
     margin: 30px 30px;
     
 }
+.sobre {
+    text-indent: 0.7em;
+    margin: 0.4rem;
+
+}
 /*Projetos*/
 main {
     width: 100%;
