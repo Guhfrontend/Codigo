@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root {
+    --green: #00ff00;
+    --white: #ffff;
+    --black: #000;
+}
+*{
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+font-family: monospace;
+background: var(--bg);
+}
+ul {
+font-family: Arial, Helvetica, sans-serif;  
+}
+li {
+list-style: circle;
+}
+.list { 
+list-style: square;  
+} 
+#msg {
+font-family: monospace; 
+}
+.light-theme {
+--bg: var(--green);
+--fontColor: var(--black);
+--bntBg: var(--black);
+--bntFontColor: var(--white);
+}
+.dark-theme {
+--bg: var(--black);
+--fontColor: var(--green);
+--bntBg: var(--white);
+--bntFontColor: var(--black);
+}
+.btn {
+color: var(--bntFontColor);
+background-color: var(--bntBg);
+position: absolute;
+top: 20px;
+left: 250px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+border: none;
+}
+.bnt:focus {outline-style: none;}
+
