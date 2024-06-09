@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java/Account/Account.iml" filepath="$PROJECT_DIR$/Java/Account/Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java/Documentos.iml" filepath="$PROJECT_DIR$/Java/Java/Documentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Employee/Employee.iml" filepath="$PROJECT_DIR$/Java/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Excepcions/Excepcions.iml" filepath="$PROJECT_DIR$/Java/Excepcions/Excepcions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/OrderItens/OrderItens.iml" filepath="$PROJECT_DIR$/Java/OrderItens/OrderItens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Product/Product.iml" filepath="$PROJECT_DIR$/Java/Product/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Shape/Shape.iml" filepath="$PROJECT_DIR$/Java/Shape/Shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/Java/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/TryCatch/TryCatch.iml" filepath="$PROJECT_DIR$/Java/TryCatch/TryCatch.iml" />
+    </modules>
+  </component>
+</project>
