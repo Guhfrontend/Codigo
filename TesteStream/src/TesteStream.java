@@ -7,7 +7,7 @@ public class TesteStream {
         Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
-        
+
 
     }
 }
